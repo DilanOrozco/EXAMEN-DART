@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'UpdateMovie.dart';
 import 'add.dart';
 import 'list.dart';
 import 'DeleteMovie.dart';
@@ -27,6 +28,7 @@ void main(){
       break;
 
       case "3":
+      updateMovie(peliculas);
       break;
 
       case "4":
